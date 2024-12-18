@@ -2,21 +2,21 @@
 
 This project aims to group songs by embeddings, enabling insights and analysis based on their characteristics. Due to the deprecation of certain Spotipy features, this process requires manual dataset creation or the use of pre-existing spreadsheets.
 
-###Prerequisites
+### Prerequisites
 
 Ensure you have Python installed (version 3.7 or higher is recommended).
 
-###Installation
+### Installation
 
 Install the necessary Python packages by running the following command:
 
 pip install pandas scikit-learn matplotlib sentence-transformers spotipy python-dotenv
 
-###Dataset Preparation
+### Dataset Preparation
 
 Since Spotipy's API for fetching data directly has been deprecated (partially due to changes in policies around AI data usage), you need to prepare your dataset manually. Here are the steps:
 
-###Create Your Dataset:
+### Create Your Dataset:
 
 Use a spreadsheet program (e.g., Microsoft Excel, Google Sheets) to create a dataset.
 
@@ -28,7 +28,7 @@ Find Pre-existing Data:
 
 Search for publicly available song datasets that suit your needs.
 
-###Project Workflow
+### Project Workflow
 
 Clone this repository:
 
@@ -50,13 +50,13 @@ Note: Spotipy functionality for fetching new data might be limited due to API re
 
 Open and run the 2021-2022embeddedsongs.ipynb Jupyter notebook to execute the project workflow. Ensure your dataset path is correctly set in the notebook.
 
-###Notes
+### Notes
 
 The Spotipy API may not work as intended for fetching new song data due to their policy against AI training. Manual preparation of datasets is recommended.
 
 Make sure the dataset format aligns with the project's requirements (e.g., column names and data types).
 
-###Output
+### Output
 
 The notebook will output visualizations and groupings of songs based on their embeddings.
 
